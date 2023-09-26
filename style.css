@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/pretendard.ttf);
+}
+
+.mainContainer {
+    max-width: 1920px;
+    font-family: myFont;
+    margin: auto;
+}
+
+.content {
+    /* max-width: 70%; */
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 70%;
+
+}
+
+.menu {
+    display: flex;
+    margin-left: 50px;
+    list-style: none;
+    flex-wrap: nowrap;
+
+}
+
+.menu li {
+    padding: 0.5rem;
+    margin-right: 20px;
+}
+
+.login {
+    padding: 12px 21px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.signup {
+    padding: 12px 21px;
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.sec1Content {
+    /* background-color: rgb(216, 97, 81);
+    position: relative;
+    width: 100vw;
+    left: 0;
+    z-index: -100;
+    padding-top: 50px; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.sec1 {
+    background-color: rgb(216, 97, 81);
+    position: relative;
+    margin: auto;
+}
+
+
+
+.teamImg {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    /* top: 50%; */
+    transform: translate(-40%);
+    /* z-index: -1; */
+
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 30%;
+}
+
+.list {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 15px 10px;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.list .W {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.number {
+    color: grey;
+    padding-left: 5px;
+}
+
+.list .icon {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.rank {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.sec2Content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto;
+
+}
+
+.sec2Head {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.sec2Head p {
+    position: absolute;
+    color: rgb(220, 220, 220);
+    font-size: 150px;
+    font-weight: bold;
+    left: 50%;
+    z-index: -1;
+}
+
+.percentage {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circleContain {
+    position: relative;
+    width: 187px;
+    height: 187px;
+    margin: auto;
+}
+
+.circle {
+    /* border-radius: 50%; */
+    width: 187px;
+    height: 187px;
+    /* background-color: rgb(30, 144, 255); */
+    position: absolute;
+}
+
+.circleBox {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+.perBtn {
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    border-radius: 3px;
+    border: 0;
+}
+
+.column p {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec3Content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.sec3Box {
+    position: relative;
+    border-radius: 10px;
+    width: 376px;
+    height: 310px;
+
+}
+
+.sec3Box img {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+
+.pink {
+    background-color: rgb(230, 211, 250);
+}
+
+.green {
+    background-color: rgb(223, 237, 208);
+}
+
+.yellow {
+    background-color: rgb(251, 240, 190);
+}
+
+.sec3Text {
+    padding: 40px 30px;
+}
+
+.sec4 {
+    height: 400px;
+}
+
+.sec4Content {
+    background-image: url("/Images/meeting.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 100px auto;
+    padding-top: 30px;
+
+}
+
+.sec4Item {
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    margin: 63px 0 58px 42px;
+}
+
+.sec4Btn {
+    border: 0;
+    border-radius: 10px;
+    padding: 17px;
+    width: 153px;
+    height: 47px;
+    background-color: white;
+}
+
+.arrow {
+    padding-left: 40px;
+}
+
+.sec5 {
+    background-color: rgb(234, 236, 239);
+    margin: 100px 0;
+    padding: 100px 0;
+}
+
+.sec5Content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec5Item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+
+.sec6 {
+    /* margin: 100px 0; */
+    border-bottom: 0.5px solid grey;
+}
+
+.sec6Content {
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBody {
+    width: 750px;
+}
+
+.sec6Head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.proList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px;
+    width: 240px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+}
+
+.boxHead {
+    display: flex;
+    align-items: center;
+}
+
+.boxHead img {
+    margin-right: 10px;
+}
+
+.proBox h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.proBox h1 {
+    font-size: 16px;
+}
+
+.listText {
+    border-bottom: 0.5px solid grey;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.listText h2 {
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.listText h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer {
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+    font-weight: normal;
+}
